@@ -35,7 +35,6 @@ export default function stadt({wetter}) {
                     </motion.div>
                     <motion.p
                     initial={{position: "absolute", bottom: "5px", color: "black", backgroundColor: "white", padding: "5px", borderRadius: "3px"}}>Breitengrad: {wetter.coord.lat}, Längengrad: {wetter.coord.lon}</motion.p>
-                    <motion.p initial={{position: "absolute", bottom: "5px", right: "5px"}}>Diese Website wurde mit Next Js programmiert. <motion.a target="_blank" initial={{textDecoration: "none"}} href="https://nextjs.org/"><SiNextdotjs /></motion.a></motion.p>
                 </div>
             )
             } else {
